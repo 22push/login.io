@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    background-color: rgb(223, 197, 29);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url('img4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+
+.container {
+    background-color: rgb(81 114 154);
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.container form {
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.container h2 {
+    font-size: 1cm;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.social a {
+    text-decoration: none;
+
+}
+
+.social li {
+    list-style: none;
+}
+
+.social li i {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa {
+   margin: 1%;
+    border-radius: 50%;
+    padding: 0.15cm;
+}
+
+.fa-facebook {
+    background: #1c53a5;
+    color: white;
+    height: 0.5%;
+    border-radius: 50%;
+    width: 7%;
+    
+
+}
+.fa-instagram {
+    background-color: rgb(236, 210, 210);
+    height: 0.5%;
+    color: red;
+}
+
+.fa-google {
+    background-color: aliceblue;
+    color: rgb(63, 194, 218);
+    height: 0.5%;
+}
+.forget {
+   text-align: right;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   cursor: pointer;
+   margin-top: 3%;
+}
+.bottom p {
+    font-size: 0.42cm;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom:10% ;
+
+}
+.btn {
+    background-color: rgb(201, 145, 24);
+    border-radius: 20px;
+    padding: 3%;
+    margin-top: 4%;
+    cursor: pointer;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background: linear-gradient(to right,);
+   width: 102%;
+}
+.signup {
+    text-align: center;
+    font-weight: 400;
+    cursor: pointer;
+}
